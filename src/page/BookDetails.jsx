@@ -121,7 +121,7 @@ const BookDetails = () => {
           {/* Product form */}
           <div className='mt-10 lg:max-w-lg self-start'>
             <section aria-labelledby='options-heading'>
-              <h2 id='options-heading' className='sr-only'>
+              <h2 className='text-lg text-gray-900 sm:text-xl mb-4'>
                 Contact Information
               </h2>
 

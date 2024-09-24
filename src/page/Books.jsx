@@ -13,6 +13,27 @@ const Books = () => {
           <h2 className='text-xl sm:text-2xl font-semibold text-gray-900'>
             Books for sale in your department
           </h2>
+          <form action='#' className='my-4 sm:flex sm:w-full sm:max-w-sm'>
+            <div className='min-w-0 flex-1'>
+              <label htmlFor='hero-email' className='sr-only'>
+                Search books
+              </label>
+              <input
+                id='hero-email'
+                type='email'
+                className='block w-full rounded-md border border-gray-300 px-4 py-2 text-sm text-gray-900 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500'
+                placeholder='Enter books name'
+              />
+            </div>
+            <div className='mt-4 sm:mt-0 sm:ml-3'>
+              <button
+                type='submit'
+                className='block w-full rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:px-6'
+              >
+                Search
+              </button>
+            </div>
+          </form>
 
           <div className='mt-10 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8'>
             {products.map((product) => (
