@@ -3,6 +3,7 @@ import Home from './page/Home';
 import './App.css';
 import Login from './page/Login';
 import NotFound from './page/NotFound';
+import Registration from './page/Registration';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Registration />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
