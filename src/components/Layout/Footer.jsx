@@ -147,7 +147,7 @@ const Footer = () => {
         <div className='py-10 md:flex md:items-center md:justify-between'>
           <div className='text-center md:text-left'>
             <p className='text-sm text-gray-500'>
-              &copy; 2024 All Rights Reserved Mili
+              &copy; 2022 All Rights Reserved Rajib
             </p>
           </div>
 
